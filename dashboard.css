@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #0C134F;
+    display: flex;
+    flex-direction: row;
+}
+#menu{
+    width: 200px;
+    height: 100vh;
+    background-color: #5C469C;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+}
+#logoimg{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#home{
+    margin-top: 20px;
+}
+.menucont{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 26px;
+}
+.menuico{
+    position: relative;
+    left: 10px;
+}
+.menuopt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 0 auto;
+    height: 35px;
+    background-color: #D4ADFC;
+}
+.menuopt:hover{
+    background-color: #5C469C;
+    color: aliceblue;
+    cursor: pointer;
+}
+#nonmenu{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+#updatetab{
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    background-image: url('black-gothic-victorian-pattern-4b6i34q2x1yaoe7e.jpg');
+    background-size: cover;
+    align-items: center;
+    /* justify-content: center; */
+    overflow: hidden;
+    column-gap: 180px;
+}
+#thought{
+    height: 140px;
+    width: 230px;
+    background-color: rgba(241, 188, 234, 0.221);
+    color: aliceblue;
+    border-radius: 7px;
+    overflow: hidden;
+    margin-left: 50px;
+}
+#word{
+    border-radius: 2px;
+    text-align: center;
+    margin-top: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 700;
+    color: #000000;
+
+    text-shadow: 1px 1px 2px white;
+    animation: wordslide 5s ease-in 0s infinite;
+}
+.meanmarg{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 13px;
+    color: white;
+    animation: contentfade 5s ease-in 0s infinite;
+}
+#wordcontainer{
+    overflow: hidden;
+    background-color: aliceblue;
+}
+#titlecontainer{
+    overflow: hidden;
+    animation: titleslide 5s ease-in 0s infinite;
+}
+@keyframes wordslide {
+    0%{
+        transform: translateY(-20px);
+    }
+    20%{
+        transform: translateY(0px);
+    }
+    80%{
+        transform: translateY(0px);
+    }
+    90%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(20px);
+    }
+}
+@keyframes titleslide {
+    0%{
+        transform: translateY(20px);
+    }
+    20%{
+        transform: translateY(0px);
+    }
+    80%{
+        transform: translateY(0px);
+    }
+    90%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(-30px);
+    }
+}
+@keyframes contentfade {
+    0%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 1;
+    }
+    80%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+
+}
+#pronico{
+    width: 16px;
+}
+#pronsound{
+    position: relative;
+    bottom: 9px;
+    animation: contentfade 5s ease-in 0s infinite;
+}
+
+#pronbutton{
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 200px;
+}
+#mentorupdate{
+    height: 160px;
+    /* margin-left: 537px; */
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mainselect{
+    width: 80%;
+    height: 90px;
+    background-color: rgba(255, 255, 255, 0.726);
+    margin-top: 35px;
+    padding-left: 40px;
+    padding-top: 20px;
+    border-radius: 20px;
+    
+}
+#greeting{
+    height: 140px;
+    width: 230px;
+    background-color: rgba(240, 248, 255, 0.155);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
