@@ -1,0 +1,83 @@
+@font-face {
+    font-family: ancient;
+    src: url('ancient.ttf.ttf');
+}
+@font-face {
+    font-family: chalk;
+    src: url('TeachersStudent-Regular.ttf');
+}
+#button:hover{
+    transform: translateY(3px);
+    box-shadow: none;
+}
+
+body{
+    background-color: black;
+    background-image: url('dark.jpg');
+    background-size: contain;
+}
+#container{
+    width: 40vw;
+    height: auto;
+    margin: 30vh auto;
+    color: white;
+    background-size: cover;
+    background-image: url('loginback.png');
+    border-radius: 10px;
+    padding-top: 20px;
+}
+#title{
+    margin-top: 10px;
+    font-family: ancient;
+    font-size: 56px;
+    text-align: center;
+}
+#subtitle{
+    text-align: center;
+}
+.centeralign{
+    margin-top:10px;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+.textarea::selection{
+    border: solid white 1px;
+}
+.textarea{
+    height: 35px;
+    width: 30vw;
+    border: solid white 1px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.128);
+    padding-top: auto;
+    padding-left: 20px;
+    /* padding-right: 20px; */
+    padding-bottom: auto;
+    font-family: chalk;
+    font-size: 20px;
+}
+#button{
+    margin: auto;
+    height: 6vh;
+    border-radius: 15px;
+    font-size: 18px;
+    background-color: rgba(240, 248, 255, 0.132);
+    color: white;
+    box-shadow: 0px 2px 2px rgb(148, 44, 148);
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.5s;  
+    text-decoration: none; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#buttoncontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+

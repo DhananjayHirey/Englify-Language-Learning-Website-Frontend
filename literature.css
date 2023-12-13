@@ -1,0 +1,113 @@
+h1 {
+    color: #007BFF;
+}
+h2{
+    color: white;
+}
+p {
+    line-height: 1.5;
+    color: whitesmoke;
+}
+li{
+    color: whitesmoke;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #0C134F;
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+}
+#menu{
+    width: 200px;
+    height: 100vh;
+    background-color: #5C469C;
+    display: flex;
+    flex-direction: column;
+    position:fixed;
+}
+#logoimg{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#home{
+    margin-top: 20px;
+}
+.menucont{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 26px;
+}
+.menuico{
+    position: relative;
+    left: 10px;
+}
+.menuopt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 0 auto;
+    height: 35px;
+    background-color: #D4ADFC;
+}
+#nonmenu{
+    display: flex;
+    flex-direction: column;
+}
+.menuopt:hover{
+    background-color: #5C469C;
+    color: aliceblue;
+    cursor: pointer;
+}
+#topicselector{
+    height: 120px;
+    background-image: url('black-gothic-victorian-pattern-4b6i34q2x1yaoe7e.jpg');
+    background-size: cover;
+    width: 100vw;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+#avi{
+    padding-left: 40px;
+    width: 100%;
+    margin-bottom: 100px;
+    margin-left: 200px;
+}
+.gramtopics{
+    width: 160px;
+    height: 100px;
+    background-color: #5c469c85;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 149px;
+    font-size: 20px;
+    text-align: center;
+    color: #D4ADFC;
+    font-weight: 600;
+    border: 0.5px solid #D4ADFC;
+    box-shadow: 0px 2px 3px #D4ADFC;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.5s;
+}
+.gramtopics:hover{
+    transform: translateY(3px);
+    background-color: #D4ADFC;
+    color: #5C469C;
+    box-shadow: 0px 2px 3px #5C469C;
+}

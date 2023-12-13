@@ -1,0 +1,493 @@
+@font-face {
+    font-family: Ancient;
+    src: url('Sketch\ Gothic\ School.ttf');
+}
+@font-face {
+    font-family: chalk;
+    src: url('TeachersStudent-Regular.ttf');
+}
+@font-face {
+    font-family: disney;
+    src: url('Winter\ is\ coming.otf');
+}
+@keyframes visibility1 {
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 1;
+    }
+    99%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes visibility2 {
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    99%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes visibility3 {
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 1;
+    }
+    99%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes mentorslide{
+    0%{
+        transform: translateX(28vw);
+    }
+    10%{
+        transform: translateX(0vw);
+    }
+    20%{
+        transform: translateX(0vw);
+    }
+    30%{
+        transform: translateX(-28vw);
+    }
+    40%{
+        transform: translateX(-28vw);
+    }
+    80%{
+        transform: translateX(-28vw);
+    }
+    90%{
+        transform: translateX(-28vw);
+    }
+    100%{
+        transform: translateX(-28vw);
+    }
+}
+@keyframes quizslide{
+    0%{
+        transform: translateX(0vw);
+    }
+    10%{
+        transform: translateX(0vw);
+    }
+    20%{
+        transform: translateX(0vw);
+    }
+    30%{
+        transform: translateX(-28vw);
+    }
+    40%{
+        transform: translateX(-28vw);
+    }
+    50%{
+        transform: translateX(-56vw);
+    }
+    60%{
+        transform: translateX(-56vw);
+    }
+    90%{
+        transform: translateX(-56vw);
+    }
+    100%{
+        transform: translateX(-56vw);
+    }
+}
+
+@keyframes saleslide{
+    0%{
+        transform: translateX(-28vw);
+    }
+    10%{
+        transform: translateX(-28vw);
+    }
+    20%{
+        transform: translateX(-28vw);
+    }
+    30%{
+        transform: translateX(-28vw);
+    }
+    40%{
+        transform: translateX(-28vw);
+    }
+    50%{
+        transform: translateX(-56vw);
+    }
+    60%{
+        transform: translateX(-56vw);
+    }
+    70%{
+        transform: translateX(-84vw);
+    }
+    80%{
+        transform: translateX(-84vw);
+    }
+    90%{
+        transform: translateX(-84vw);
+    }
+    100%{
+        transform: translateX(-84vw);
+    }
+}
+@keyframes refbookslide {
+    0%{
+        transform: translateX(0vw);
+    }
+    10%{
+        transform: translateX(0vw);
+    }
+    20%{
+        transform: translateX(0vw);
+    }
+    30%{
+        transform: translateX(0vw);
+    }
+    40%{
+        transform: translateX(0vw);
+    }
+    50%{
+        transform: translateX(0vw);
+    }
+    60%{
+        transform: translateX(0vw);
+    }
+    70%{
+        transform: translateX(-28vw);
+    }
+    80%{
+        transform: translateX(-28vw);
+    }
+    90%{
+        transform: translateX(-56vw);
+    }
+    100%{
+        transform: translateX(-56vw);
+    }
+}
+#button:hover{
+    transform: translateY(5px);
+    box-shadow: none;
+}
+#grammar:hover{
+    transform: translateY(5px);
+    box-shadow: none;
+}
+#writing:hover{
+    transform: translateY(5px);
+    box-shadow: none;
+}
+#pronounce:hover{
+    transform: translateY(5px);
+    box-shadow: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000000;
+    overflow-x: hidden;
+    /* overflow-y: auto; */
+}
+#title{
+    padding-top: 2vh;
+    padding-left: 5vw;
+    display: flex;
+    flex-direction: row;
+    height: 44vh;
+    background-color: #3d4044;
+    background-image: url('black-gothic-victorian-pattern-4b6i34q2x1yaoe7e.jpg');
+    background-size: cover;
+    /* opacity: 0.25; */
+}
+#Englify{
+    font-family: Ancient;
+    font-stretch: extra-expanded;
+    font-size: 18vh;
+    color: white;
+    text-shadow: 3px 3px 7px black;
+}
+#subtitle{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 6vh;
+    font-weight: 1000;
+    background-size: 100%; 
+    background-image: url('cherry-blossom-pink-hues-abstract-background-gradient-colors-design-applicable-for-website-banners-poster-sign-corporate-business-social-media-posts-header-landing-page-animation-motion-pictures-free-vector.jpg');
+    background-size: 18vh;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.409);
+}
+#random{
+    position: relative;
+    left: 34vw;
+    top: 1.5vh;
+    background-color:transparent;
+    height: 38.2vh;
+    width: 27.9vw;
+    display: flex;
+    background-image: url('Englifylightbg.png');
+    background-position: center;
+    background-size: contain;
+    /* justify-content: center;
+    align-items: center; */
+    overflow: hidden;
+    border-radius: 7px;
+}
+#subsubtitle{
+    width: 24vw;
+    text-align: center;
+}
+#read{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3.5vh;
+    color: #AED2FF;
+    font-weight: 700;
+    animation: visibility1 3.5s ease-in 0s infinite;
+}
+#learn{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3.5vh;
+    color: #AED2FF;
+    font-weight: 700;
+    animation: visibility2 3.5s ease-in 0s infinite;
+}
+#solve{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3.5vh;
+    color: #AED2FF;
+    font-weight: 700;
+    animation: visibility3 3.5s ease-in 0s infinite;
+}
+#title-mentorimg{
+    /* height: 40vh; */
+    width: 28vw;
+    position: relative;
+    z-index: 7;
+    animation: mentorslide 20s ease-in 0s infinite;
+    /* transform: translateX(60vh); */
+    /* opacity: 0; */
+}
+#title-quizimg{
+    /* height: 40vh; */
+    width: 28vw;
+    position: relative;
+    z-index: 8;
+    animation: quizslide 20s ease-in 0s infinite;
+    /* animation-play-state: running; */
+    /* transform: translateX(60vh); */
+    /* opacity: 0; */
+
+}
+#saleimg{
+    /* height: 40vh; */
+    width: 28vw;
+    position: relative;
+    z-index: 9;
+    animation: saleslide 20s ease-in 0s infinite;
+    /* transform: translateX(60vh); */
+    /* opacity: 0; */
+}
+#refbookimg{
+    height: 40vh;
+    position: relative;
+    right: 56vw;
+    z-index: 10;
+    animation: refbookslide 20s ease-in 0s infinite;
+}
+#whyenglify{
+    width: 100vw;
+    margin: 80px 10px 0px 0px;
+    padding: 0 20px 0 0;
+    display: flex;
+    flex-direction: row;
+}
+#whycontent{
+    color: white;
+    font-size: 24px;
+    font-family: chalk;
+}
+#whytitle{
+    color: white;
+    font-size: 56px;
+    font-family: disney;
+}
+#buttoncontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button{
+    font-family: chalk;
+    font-size: 30px;
+    width: 149px;
+    height: 67px;
+    border: solid 6px purple;
+    border-radius: 53px;
+    background-color: #495057;
+    color: white;
+    box-shadow: 0px 5px 10px rgb(121, 114, 114);
+    transition: all;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+#whycontentcontainer{
+    width: 60vw;
+    margin-left: 20px;
+}
+#whycontainer{
+    margin-left:40px;
+}
+#Whygif{
+    width: 35vw;
+    margin-top: 20px;
+    display: inline;
+}
+#goalcontainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+#goal{
+    margin: 50px 0px 0px 60px;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#goaltitle{
+    color: white;
+    font-size: 56px;
+    font-family: disney;
+}
+#goalcontent{
+    color: white;
+    font-size: 24px;
+    font-family: chalk;
+}
+dfn{
+    text-decoration: underline;
+    font-style: normal;
+}
+#goalimg{
+    width: 40vw;
+    margin-left: 40px;
+}
+#salecontainer{
+    margin: 40px auto 0px auto;
+    background-color: rgba(240, 248, 255, 0.128);
+    border: solid 1px white;
+    background-image: url('Diwaliback.png');
+    background-size: cover;
+    width: 90vw;
+    /* height: 80vh; */
+    border-radius: 10px;
+}
+#premtitle{
+    font-family: disney;
+    font-size: 56px;
+    text-align: center;
+    margin: 35px auto 0px auto;
+    color: white;
+}
+#coursecontainer{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    
+    /* background-color: aliceblue; */
+}
+#grammar{
+    width: 24vw;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 4px 4px 7px rgb(240, 104, 240);
+    transition: all;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+#writing{
+    width: 24vw;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 4px 4px 7px rgb(240, 104, 240);
+    transition: all;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+#pronounce{
+    width: 24vw;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 4px 4px 7px rgb(240, 104, 240);
+    transition: all;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.figitem{
+    margin:auto;
+}
+.figcap{
+    width: 10vw;
+    text-align: center;
+    font-size: 18px;
+    margin: 10px auto 10px auto;
+    height:10vh;
+    background-color: rgba(240, 248, 255, 0.696);
+    border-radius: 10px 0px;
+}
+#footcontainer{
+    margin: 0px 0px 0px 0px;
+}
+#footflex{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+#li1{
+    margin: 20px auto auto auto;
+    color: white;
+    line-height: 30px;
+    /* background-color: grey; */
+}
+#li2{
+    margin: 20px auto auto auto;
+    color: white;
+    line-height: 30px;
+    /* background-color: grey; */
+}
+#li3{
+    margin: 20px auto auto auto;
+    color: white;
+    line-height: 30px;
+    /* background-color: grey; */
+}
+#copyright{
+    color: white;
+    text-align: center;
+}

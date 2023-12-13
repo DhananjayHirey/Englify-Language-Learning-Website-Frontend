@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Englify-Language Simplified</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div id="header" class="sticky">
+        <img src="whitehome.png" alt="." class="navicon">
+        <span id="Home" class="left">Home</span>
+        <img src="about uswhite.png" alt="" class="navicon">
+        <span id="About"class="left">About</span>
+        <img src="talk-24.png" alt="" class="navicon" id="mentorimg">
+        <span id="Mentor"class="right">Mentor Assignment</span>
+        <img src="whitequiz.png" alt="" id="quizimg" class="navicon">
+        <span id="Test"class="right">Test Yourself</span>
+    </div>
+    <div id="row1">
+        <section id="title">
+            <p class="content">Grammar Quiz </p>
+            <div class="topic">Tenses</div>
+        </section>
+        <div id="timer">
+
+        </div>
+    </div>
+    <div id="row2">
+        <section class="q">
+            <div class="que">
+                <p>Q1. Which Tense is used in the following sentence?</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You are visiting English Club.</p>
+            </div>
+            <br>
+            <div>
+                <form action="form.php" class="options">
+                    <div class="option" id="q1o1">
+                        <label for="sectiona1" class="optcontent">
+                            <input type="radio" name="section" id="sectiona1">&nbsp;&nbsp;Present Perfect Tense
+                        </label>
+                    </div>
+                    <div class="option" id="q1o2">
+                        <label for="sectionb1" class="optcontent">
+                            <input type="radio" name="section" id="sectionb1">&nbsp;&nbsp;Present Continuous Tense
+                        </label>
+                    </div>
+
+                    <div class="option" id="q1o3">
+                        <label for="sectionc1" class="optcontent">
+                            <input type="radio" name="section" id="sectionc1">&nbsp;&nbsp;Present Simple Tense
+                        </label>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </div>
+    <div id="row3">
+        <section class="q">
+            <div class="que">
+                <p>Q2. Which Tense is used in the following sentence?</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rahul had written a letter to the Music Club.</p>
+            </div>
+            <br>
+            <div>
+                <form action="form.php" class="options">
+                    <div class="option" id="q2o1">
+                        <label for="sectiona2" class="optcontent">
+                            <input type="radio" name="section" id="sectiona2">&nbsp;&nbsp;Past Perfect Tense
+                        </label>
+                    </div>
+                    <div class="option" id="q2o2">
+                        <label for="sectionb2" class="optcontent">
+                            <input type="radio" name="section" id="sectionb2">&nbsp;&nbsp;Past Continuous Tense
+                        </label>
+                    </div>
+
+                    <div class="option" id="q2o3">
+                        <label for="sectionc2" class="optcontent">
+                            <input type="radio" name="section" id="sectionc2">&nbsp;&nbsp;Past Perfect Tense
+                        </label>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+    
+    <div id="row4">
+        <section class="q">
+            <div class="que">
+                <p>Q3. Which Tense is used in the following sentence?</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Karan will have eaten the cake by then.</p>
+            </div>
+            <br>
+            <div>
+                <form action="form.php" class="options">
+                    <div class="option" id="q3o1">
+                        <label for="sectiona3" class="optcontent">
+                            <input type="radio" name="section" id="sectiona3">&nbsp;&nbsp;Future Continuous Tense
+                        </label>
+                    </div>
+                    <div class="option" id="q3o2" for="sectionb3">
+                        <label class="optcontent">
+                            <input type="radio" name="section" id="sectionb3">&nbsp;&nbsp;Simple Future Tense
+                        </label>
+                    </div>
+
+                    <div class="option" id="q3o3">
+                        <label for="sectionc3" class="optcontent">
+                            <input type="radio" name="section" id="sectionc3">&nbsp;&nbsp;Future Perfect Tense
+                        </label>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <div id="row5">
+        <section class="q">
+            <div class="que">
+                <p>Q4. Which Tense is used in the following sentence?</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mahesh has been playing football since morning.</p>
+            </div>
+            <br>
+            <div>
+                <form action="form.php" class="options">
+                    <div class="option" id="q4o1">
+                        <label for="sectiona4" class="optcontent">
+                            <input type="radio" name="section" id="sectiona4">&nbsp;&nbsp;Future Perfect Progressive Tense
+                        </label>
+                    </div>
+                    <div class="option" id="q4o2" for="sectionb4">
+                        <label class="optcontent">
+                            <input type="radio" name="section" id="sectionb4">&nbsp;&nbsp;Past Perfect Progressive Tense
+                        </label>
+                    </div>
+
+                    <div class="option" id="q4o3">
+                        <label for="sectionc4" class="optcontent">
+                            <input type="radio" name="section" id="sectionc4">&nbsp;&nbsp;Present Perfect Progressive Tense
+                        </label>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+    <div id="row7">
+        <button id="submit" onclick="submit()" >
+            Submit
+        </button>
+    </div>
+    <div id="row6">
+
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>

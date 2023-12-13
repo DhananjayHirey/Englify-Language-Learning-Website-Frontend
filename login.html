@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Englify | Sign Up</title>
+    <link rel="stylesheet" href="login.css">
+
+</head>
+<body>
+    <div id="container" >
+        <div id="title" >
+            Hello <span style="color: #FB2576;" >S</span>hakespeares!
+        </div>
+        <br>
+        <div id="subtitle" >
+            Be a Pro in English... <br>
+            Convert your greatest fear into your greatest strength! <br>
+            Dive into the <abbr title="/prəˈfaʊnd/ adj. 1.deep 2.very great">profound</abbr> world of ENGLISH...
+        </div>
+        <br><br><br>
+        <div>
+            <form action="">
+                <div class="centeralign" >
+                    <label for="email"  >
+                        <input type="text" name="email" id="email" class="textarea" placeholder="&nbsp;&nbsp;Enter your email" >
+                    </label>
+                </div>
+                <br>
+                <br>
+                <div class="centeralign">
+                    <label for="password">
+                        <input type="text" name="password" id="password" class="textarea" placeholder="&nbsp;&nbsp;Enter password" >
+                    </label>
+                </div>
+                <br>
+                <br>
+                <div class="centeralign">
+                    <label for="confirmpassword">
+                        <input type="text" name="confirmpassword" id="password" class="textarea" placeholder="&nbsp;&nbsp;Confirm password" >
+                    </label>
+                </div>
+                <br><br>
+                <div class="centeralign" >
+                    <label for="username">
+                        <input type="text" name="username" id="username" class="textarea" placeholder="&nbsp;&nbsp;What should we call you?">
+                    </label>
+                </div>
+                <br><br>
+                <div class="centeralign" >
+                    <label for="address">
+                        <input type="text" name="address" id="address" class="textarea" placeholder="&nbsp;&nbsp;Address (to deliver resources at your doorstep)">
+                    </label>
+                </div>
+                <br><br>
+                <div class="centeralign" >
+                    <p>Select your areas of interest:</p>
+                    <label for="graminterest">
+                        <input type="checkbox" name="graminterest" id="graminterest" >&nbsp;&nbsp;Grammar
+                    </label>
+                    <br>
+                    <label for="writinterest">
+                        <input type="checkbox" name="writinterest" id="writinterest" >&nbsp;&nbsp;Writing Skills
+                    </label>
+                    <br>
+                    <label for="speakinterest">
+                        <input type="checkbox" name="speakinterest" id="speakinterest" >&nbsp;&nbsp;Public Speaking
+                    </label>
+                </div>
+                <br><br>
+                <div id="buttoncontainer" >
+                    <!-- <a href="dashboard.html" onclick="signup()" >
+                        <button id="button" class="centeralign">
+                            Sign Up
+                        </button>
+                    </a> -->
+                    <a href="dashboard.html" target="_self" id="button" class="centeralign" onclick="signup()">
+                        Sign Up
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="login.js" ></script>
+</body>
+</html>
