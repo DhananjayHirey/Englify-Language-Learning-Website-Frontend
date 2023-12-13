@@ -1,0 +1,126 @@
+@font-face {
+    font-family: disney;
+    src: url('Winter\ is\ coming.otf');
+
+}
+*{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;    
+    padding-top: 0;
+    padding-bottom: 0;
+}
+body{
+    background-color: black;
+    background-image: url('background.png');
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat:repeat-y;
+    overflow: scroll;
+}
+span{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* list-style: none; */
+    padding-left: 0.3vw;
+    padding-right: 1.5vw;
+}
+#header{
+    height : 11vh;
+    background-color: #000000;
+    border: 0px;
+    border-radius: 2vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: static;
+    /* position: absolute; */
+}
+#Home{
+    color: white; 
+    justify-self: flex-start;
+    /* display: inline; */
+}
+#About{
+    color: white;
+    justify-self:flex-start;
+}
+#Mentor{
+    color: white;
+    justify-self: flex-start;
+}
+#Test{
+    color: white;
+    justify-self: flex-end;
+}
+#quizimg{
+    margin-left: auto;
+}
+body{
+    background-image: url('background.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+#plane{
+    background-color: rgb(24, 23, 23);
+    opacity: 0.7;
+    width: 60vw;
+    height: 80vh;
+    margin-top: 25px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left: auto; */
+    /* padding-right: auto; */
+    /* border: 2px solid whitesmoke ; */
+    border-radius: 20px;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+}
+#title{
+    font-family: disney;
+    font-size: 48px;
+    align-self: center;
+    margin-top: 25px;
+    text-shadow: 2px 2px 3px grey ;
+    color: rgba(255, 0, 255, 0.698);
+}
+#subtitle{
+    align-self: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+#row1{
+    align-self: center;
+}
+span{
+    color: #ff90ff89;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.formopt{
+    width: 200px;
+    height: 35px;
+    border-radius: 25px;
+}
+#lessons{
+    cursor: pointer;
+    width: 11vw;
+    height: 7vh;
+    text-align: center;
+    border-radius: 40px;
+    font-size: 20px;
+}
+#literature #wordquiz #grammar:hover{
+    background-color: #d20fd289;
+}
+#subopt1 #subopt2 #subopt3 #subopt4:hover{
+    background-color: #b316b389;
+    color: #000000;
+}

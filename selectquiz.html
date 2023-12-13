@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Englify-Language Simplified</title>
+    <link rel="stylesheet" href="selectquiz.css">
+</head>
+<body>
+    <div id="header" class="sticky">
+        <img src="whitehome.png" alt="." class="navicon">
+        <span id="Home" class="left">Home</span>
+        <img src="about uswhite.png" alt="" class="navicon">
+        <span id="About"class="left">About</span>
+        <img src="talk-24.png" alt="" class="navicon" id="mentorimg">
+        <span id="Mentor"class="right">Mentor Assignment</span>
+        <img src="whitequiz.png" alt="" id="quizimg" class="navicon">
+        <span id="Test"class="right">Test Yourself</span>
+    </div>
+    <div id="plane">
+        <div id="title">
+            Hello Shakespeares!
+        </div>
+        <br>
+        <div id="subtitle">
+            Wanna test your English?
+        </div>
+        <div id="row1">
+            Attempt Quizes in several domains of English improvise with every Test! <br>
+            Each quiz consists of <span>10 Questions</span> each <span>10 minutes</span>long.
+        </div>
+        <div class="form">
+            
+            <select class="formopt" name="topics" id="topics" >
+                <option class="formopt" value="None">Select Subject</option>
+                <option class="formopt" value="literature" id="literature" onclick="literature1()">Literature</option>
+                <option class="formopt" value="grammar" id="grammar" >Grammar</option>
+                <option class="formopt" value="wordquiz" id="wordquiz" >Word Quiz</option>
+            </select>
+        </div>
+        <br><br>
+        <div class="form">
+
+            <select class="formopt" name="subtopics" id="subtopics">
+                <option class="formopt" value="" id="subopt1"></option>
+                <option class="formopt" value="" id="subopt2"></option>
+                <option class="formopt" value="" id="subopt3"></option>
+                <option class="formopt" value="" id="subopt4"></option>
+            </select>
+        </div>
+        <div class="form" >
+            <button id="submit">
+                <a href="quiz.html" style="text-decoration: none; color: black;">Submit</a>
+            </button>
+        </div>
+    </div>
+    <script type="module" src="selectquiz.js"></script>
+</body>
+</html>
